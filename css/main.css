@@ -39,13 +39,29 @@ body {
 h2 {
   font-size: 3rem;
   font-family: Roboto, sans-serif;
+  float: right;
 }
 
 p {
   font-size: 1.5rem;
   font-family: "Roboto Condensed", sans-serif;
+  float: right;
 }
 
 .btn h2 {
   font-size: 1.5rem;
+  float: right;
+  color: lightgrey;
+  background-color: black;
+  font-style: normal;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.btn:hover {
+
+}
+
+img {
+  float: left;
 }
