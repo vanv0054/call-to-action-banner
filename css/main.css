@@ -48,18 +48,19 @@ p {
   float: right;
 }
 
-.btn h2 {
+.btn {
   font-size: 1.5rem;
   float: right;
   color: lightgrey;
   background-color: black;
-  font-style: normal;
   padding: 1rem;
   border-radius: 10px;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
 }
 
 .btn:hover {
-
+  background-color: black;
 }
 
 img {
