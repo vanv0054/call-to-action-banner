@@ -11,3 +11,13 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.banner {
+  overflow: hidden;
+  max-height: 500px;
+  position: relative;
+}
