@@ -39,15 +39,12 @@ body {
 h2 {
   font-size: 3rem;
   font-family: Roboto, sans-serif;
-  float: right;
-  width: auto;
+  display: inline-block;
 }
 
 p {
   font-size: 1.5rem;
   font-family: "Roboto Condensed", sans-serif;
-  float: right;
-  width: auto;
 }
 
 .btn {
@@ -66,7 +63,10 @@ p {
   background-color: black;
 }
 
-img {
+.left {
   float: left;
-  width: auto;
+}
+
+.right {
+  float: right;
 }
