@@ -16,8 +16,31 @@ body {
   margin: 0;
 }
 
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
 .banner {
   overflow: hidden;
   max-height: 500px;
   position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+img {
+  width 100%;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
 }
